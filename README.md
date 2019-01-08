@@ -17,7 +17,6 @@ $ yarn better-vue-breakpoints
 
 You can either import it into your component or use it in your app.js to make it work globally:
     
-    // in your app/component:
 ##### Declare use in your App / Component:
     import Vue from 'vue';
     import breakpoint from 'better-vue-breakpoints';
