@@ -1,0 +1,20 @@
+{
+    "name": "better-vue-breakpoints",
+    "description": "Easy media breakpoints management for Vue",
+    "version": "0.1.0",
+    "main": "breakpoints.json",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/butaminas/better-vue-breakpoints.git"
+    },
+    "keywords": ["media", "queries", "breakpoints", "Vue"],
+    "author": "Mindaugas Butavičius",
+    "license": "UNLICENSED",
+    "bugs": {
+      "url": "https://github.com/butaminas/better-vue-breakpoints/issues"
+    },
+    "homepage": "https://github.com/butaminas/better-vue-breakpoints"
+  }
