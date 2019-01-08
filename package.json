@@ -2,7 +2,7 @@
     "name": "better-vue-breakpoints",
     "description": "Easy media breakpoints management for Vue",
     "version": "0.1.1",
-    "main": "breakpoints.json",
+    "main": "breakpoints.js",
     "scripts": {
       "test": "echo \"Error: no test specified\" && exit 1"
     },
