@@ -89,7 +89,6 @@ export default {
                 },
             },
             mounted() {
-                console.log(options)
                 this.$nextTick(() => {
                     this._updateDimensions();
                     window.addEventListener('resize', this._updateDimensions,
