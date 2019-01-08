@@ -12,9 +12,9 @@ export default {
                 $breakpoint() {
                     let xs = this.clientWidth < (options.xs ? options.xs : 576);
                     let sm = this.clientWidth < (options.sm ? options.sm : 768) && !xs;
-                    let md = this.clientWidth < (options.sm ? options.sm : 992) && !(sm || xs);
-                    let lg = this.clientWidth < (options.sm ? options.sm : 1200) && !(md || sm || xs);
-                    let xl = this.clientWidth >= (options.sm ? options.sm : 1920) && !(lg || md || sm || xs);
+                    let md = this.clientWidth < (options.md ? options.md : 992) && !(sm || xs);
+                    let lg = this.clientWidth < (options.lg ? options.lg : 1200) && !(md || sm || xs);
+                    let xl = this.clientWidth >= (options.xl ? options.xl : 1920) && !(lg || md || sm || xs);
 
                     let xsOnly = xs;
                     let smOnly = sm;
