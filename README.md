@@ -35,7 +35,7 @@ You can either import it into your component or use it in your app.js to make it
     <div v-if="$breakpoint.smAndUp"></div>
 ##### Or anywhere else:
     awesomeMethod() {
-        if (this.$breakpoint.smAndUp") {
+        if (this.$breakpoint.smAndUp) {
             return "Awesome"
         }
     }
